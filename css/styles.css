@@ -1,8 +1,125 @@
-.test {
-    text-decoration: none;
-    color: #212121;
+
+/* Логотип */
+
+:root {
+    --hover-color-link: #2196F3;
 }
 
-.test:hover {
+.logo {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #2196F3;
+
+}
+
+.logo-studio {
+    color: #000000;
+}
+
+body {
+    font-family: Roboto;
+}
+
+/* Навігація */
+
+.nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.nav:hover {
+    color: var(--hover-color-link);
+}
+
+.nav:focus {
     color: #2196F3;
 }
+
+/* Контакти */
+
+.contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+}
+
+.contacts:hover {
+     color: var(--hover-color-link);
+}
+
+/* Заголовок */
+
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main-title-background {
+    background: #2F303A;
+    
+}
+
+/* Кнопка заголовка */
+
+.button-title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+/* Наши преимущества */
+
+.title-advantages {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+
+}
+
+.advantages-content {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* Чем мы занимаемся */
+
+.subtitle {
+
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+
+}
+
+/* Наша  команда */
+
