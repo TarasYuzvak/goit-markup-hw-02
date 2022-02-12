@@ -1,11 +1,20 @@
 
-/* Логотип */
-
 :root {
+
     --hover-color-link: #2196F3;
 }
 
+body {
+    
+    font-family: Roboto;
+}
+
+/* Логотип */
+
+
+
 .logo {
+
     font-family: Raleway;
     font-weight: bold;
     font-size: 26px;
@@ -16,17 +25,19 @@
 
 }
 
-.logo-studio {
+.logo-studio-header {
+
     color: #000000;
 }
 
-body {
-    font-family: Roboto;
+.logo-studio-footer {
+    color: #FFFFFF;
 }
 
 /* Навігація */
 
-.nav {
+.nav-list {
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -35,17 +46,20 @@ body {
     text-decoration: none;
 }
 
-.nav:hover {
+.nav-list:hover {
+
     color: var(--hover-color-link);
 }
 
-.nav:focus {
+.nav-list:focus {
+
     color: #2196F3;
 }
 
 /* Контакти */
 
-.contacts {
+.contacts-header {
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -54,13 +68,15 @@ body {
     text-decoration: none;
 }
 
-.contacts:hover {
+.contacts-header:hover {
+
      color: var(--hover-color-link);
 }
 
 /* Заголовок */
 
 .main-title {
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -71,6 +87,7 @@ body {
 }
 
 .main-title-background {
+
     background: #2F303A;
     
 }
@@ -78,6 +95,7 @@ body {
 /* Кнопка заголовка */
 
 .button-title {
+
     font-weight: bold;
     font-size: 16px;
     line-height: 1.9;
@@ -92,6 +110,7 @@ body {
 /* Наши преимущества */
 
 .title-advantages {
+
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -102,6 +121,7 @@ body {
 }
 
 .advantages-content {
+
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -123,3 +143,53 @@ body {
 
 /* Наша  команда */
 
+.team-names {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.name-subtitle {
+
+    font-size: 16px;
+    line-height: 1.18;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* Footer */
+
+.contacts-footer {
+
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.footer-address {
+
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.contacts-footer:hover {
+    color: var(--hover-color-link);
+}
+
+.footer-address:hover {
+    color: var(--hover-color-link);
+}
+
+footer {
+    background-color: #2F303A;
+}
