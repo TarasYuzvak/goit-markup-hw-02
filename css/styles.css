@@ -6,7 +6,7 @@
 
 body {
     
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
 }
 
 /* Логотип */
@@ -15,7 +15,7 @@ body {
 
 .logo {
 
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
@@ -56,14 +56,10 @@ body {
     color: #2196F3;
 }
 
-.nav-list-portfolio {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #2196F3;
-    text-decoration: none;
+.nav-list.current {
+    color: var(--hover-color-link);
 }
+
 
 /* Контакти */
 
@@ -174,7 +170,7 @@ body {
 /* Footer */
 
 .contacts-footer {
-
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -183,7 +179,7 @@ body {
 }
 
 .footer-address {
-
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -201,4 +197,40 @@ body {
 
 footer {
     background-color: #2F303A;
+}
+
+/* Портфолио */
+
+.button-portfolio {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #F5F4FA;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-portfolio:hover {
+    background-color: var(--hover-color-link);
+}
+
+.title-portfolio {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+
+}
+
+.subtitle-portfolio {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
+
 }
