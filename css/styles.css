@@ -2,11 +2,19 @@
 :root {
 
     --hover-color-link: #2196F3;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --grey-color: #757575;
+    --blackgrey-color: #212121;
 }
 
 body {
     
     font-family: Roboto, sans-serif;
+}
+
+li {
+    list-style-type: none;
 }
 
 /* Логотип */
@@ -16,22 +24,22 @@ body {
 .logo {
 
     font-family: Raleway, sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: #2196F3;
+    color: var(--hover-color-link);
 
 }
 
 .logo-studio-header {
 
-    color: #000000;
+    color: var(--black-color);
 }
 
 .logo-studio-footer {
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 /* Навігація */
@@ -42,7 +50,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--blackgrey-color);
     text-decoration: none;
 }
 
@@ -53,7 +61,7 @@ body {
 
 .nav-list:focus {
 
-    color: #2196F3;
+    color: var(--hover-color-link);
 }
 
 .nav-list.current {
@@ -69,11 +77,11 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--grey-color);
     text-decoration: none;
 }
 
-.contacts-header:hover {
+.contacts-header:hover, .contacts-header:focus {
 
      color: var(--hover-color-link);
 }
@@ -88,7 +96,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 .main-title-background {
@@ -101,14 +109,14 @@ body {
 
 .button-title {
 
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--white-color);
     background-color: #2196F3;
 }
 
@@ -116,12 +124,12 @@ body {
 
 .title-advantages {
 
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--blackgrey-color);
 
 }
 
@@ -130,19 +138,19 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--grey-color);
 }
 
 /* Чем мы занимаемся */
 
 .subtitle {
 
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--blackgrey-color);
 
 }
 
@@ -155,7 +163,7 @@ body {
     line-height: 1.18;
     /* text-align: center; */
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--blackgrey-color);
 }
 
 .name-subtitle {
@@ -164,7 +172,7 @@ body {
     line-height: 1.18;
     /* text-align: center; */
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--grey-color);
 }
 
 /* Footer */
@@ -183,15 +191,15 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--white-color);
     text-decoration: none;
 }
 
-.contacts-footer:hover {
+.contacts-footer:hover, .contacts-footer:focus {
     color: var(--hover-color-link);
 }
 
-.footer-address:hover {
+.footer-address:hover, .footer-address:focus {
     color: var(--hover-color-link);
 }
 
@@ -208,29 +216,34 @@ footer {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--blackgrey-color);
     background: #F5F4FA;
     border-radius: 4px;
     cursor: pointer;
 }
 
-.button-portfolio:hover {
+.button-portfolio:hover, .button-portfolio:focus {
     background-color: var(--hover-color-link);
+    color: var(--white-color);
 }
 
-.title-portfolio {
-    font-weight: bold;
+.team-title {
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--blackgrey-color);
 
 }
 
-.subtitle-portfolio {
+.team-text {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--grey-color);
 
+}
+
+header {
+    pa
 }
